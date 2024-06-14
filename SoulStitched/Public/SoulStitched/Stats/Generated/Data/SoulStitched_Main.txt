@@ -1,0 +1,26 @@
+<!--------------------- Custom Race Passives --------------------->
+
+new entry "Passive_SoulStitchedBasics"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" "Distance(12)"
+data "Icon" "PassiveFeature_Darkvision"
+data "Properties" "IsHidden"
+data "Boosts" "ActionResource(Movement,9,0);DarkvisionRangeMin(12)"
+
+new entry "Playable_M_SoulStitched"
+type "Character"
+using "_Hero"
+data "DefaultBoosts" "ScaleMultiplier(1.33)"
+data "Weight" "135"
+data "StepsType" "Bare"
+
+new entry "Playable_F_SoulStitched"
+type "Character"
+using "_Hero"
+data "DefaultBoosts" "ScaleMultiplier(1.33)"
+data "Weight" "135"
+data "StepsType" "Bare"
+
+<!--------------------- Custom Race Spells --------------------->
