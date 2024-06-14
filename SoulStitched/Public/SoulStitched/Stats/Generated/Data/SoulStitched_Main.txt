@@ -50,7 +50,7 @@ data "Boosts" "ApplyStatus(ELEMENTALAFFINITY_LIGHTNING_EXTRA_DAMAGE_TECHNICAL,10
 
 <!--------------------- SoulStitched Spells --------------------->
 
-new entry "Projectile_Killswitch"
+new entry "Projectile_Killswitch_SoulStitched"
 type "SpellData"
 data "SpellType" "Projectile"
 data "SpellSchool" "Evocation"
@@ -120,11 +120,11 @@ data "CastEffect" "10fc784a-4312-47a8-a6b8-6b529c646ac4"
 data "TargetEffect" "a3e2368b-f486-4cfc-b04a-b02e23383280"
 data "DamageType" "Lightning"
 
-new entry "Zone_BreathWeapon_Lightning"
+new entry "Zone_BreathWeapon_Lightning_SoulStitched"
 type "SpellData"
 data "SpellType" "Zone"
 using "Zone_BreathWeapon_Acid"
-data "Cooldown" "OncePerTurn"
+data "Cooldown" "OncePerShortRest"
 data "SpellProperties" "GROUND:SurfaceChange(Electrify)"
 data "SpellSuccess" "DealDamage(LevelMapValue(BreathWeapon),Lightning,Magical)"
 data "SpellFail" "DealDamage(LevelMapValue(BreathWeapon)/2, Lightning,Magical)"
@@ -141,7 +141,7 @@ data "CastEffect" "72ee0212-de05-4231-8036-602859ac5f2b"
 data "TargetEffect" "15947330-096e-488e-bec2-1086195d0498"
 data "DamageType" "Lightning"
 
-new entry "Shout_StaticOverdrive_Automaton"
+new entry "Shout_StaticOverdrive_Automaton_SoulStitched"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_ActionSurge"
