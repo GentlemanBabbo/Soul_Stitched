@@ -28,7 +28,20 @@
 			<!--Female Hair-->
 
 			<!--Beards-->
-				<node id="CharacterCreationAppearanceVisual"> Proteus - A
+				<node id="CharacterCreationAppearanceVisual"> SS Beard - A
+					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
+					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
+                   			<attribute id="DisplayName" type="TranslatedString" handle="" version="1"/> 
+					same as the handle in your Localization\English\custom_name_here.xml
+					<attribute id="RaceUUID" type="guid" value="0d4de498-b121-4a46-a6a2-947a5b4a9159"/>
+					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SlotName" type="FixedString" value="Beard"/>
+					<attribute id="UUID" type="guid" value="a118bd8f-200c-4c47-a78b-f471a5e156fc"/> <!--Unique UUID -->
+					<attribute id="VisualResource" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
+				</node>
+				<node id="CharacterCreationAppearanceVisual"> SS Beard - B
 					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
 					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
 					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
