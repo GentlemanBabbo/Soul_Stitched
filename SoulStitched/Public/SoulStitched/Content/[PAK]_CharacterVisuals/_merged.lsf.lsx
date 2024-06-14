@@ -5,7 +5,7 @@
 		<node id="CharacterVisualBank">
 			<children>
 				<node id="Resource">
-					<attribute id="BaseVisual" type="FixedString" value="20b3ea2f-40db-418e-81fd-5dabe2d3e62b" />
+					<attribute id="BaseVisual" type="FixedString" value="ca03109e-4f37-444d-a075-2b24c7e16d5f" />
 					<attribute id="BodySetVisual" type="FixedString" value="92e941ee-66b9-4e9b-b29f-f6e1ba2bfe33" /> body model
 					<attribute id="ID" type="FixedString" value="867083fb-71f0-4a28-b11c-cbd852c39054" /> must be unique		
 					<attribute id="Localized" type="bool" value="False" />
