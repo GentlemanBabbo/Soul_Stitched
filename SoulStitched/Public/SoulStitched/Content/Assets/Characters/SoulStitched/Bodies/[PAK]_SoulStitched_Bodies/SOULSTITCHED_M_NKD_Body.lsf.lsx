@@ -716,7 +716,7 @@
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="NakedBody" />
-					<attribute id="SoftbodyResourceID" type="FixedString" value="e80f5bba-dae0-fdea-1874-ba11c52906c3" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/SoulStitched/[PAK]_SoulStitched_Body/SoulStitched_Body/SoulStitched_M_NKD_Body.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/SoulStitched/[PAK]_SoulStitched_Body/SoulStitched_Body/SoulStitched_M_NKD_Body.Dummy_Root.0" />
