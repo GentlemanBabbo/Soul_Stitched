@@ -834,7 +834,7 @@
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
-					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="3e34cfc9-987b-336e-9526-bfd42a6be1a1" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="42e75385-59d5-2742-2777-20643a0aca5b" />
 					<attribute id="BoundsMax" type="fvec3" value="0 0 0" />
 					<attribute id="BoundsMin" type="fvec3" value="0 0 0" />
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
@@ -846,13 +846,14 @@
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="c7362bee-be85-a2a1-075b-4861e61e2c32" />
+					<attribute id="SkeletonResource" type="FixedString" value="0a5ecbd1-1e87-f992-b884-ec81a1e568a2" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="NakedBody" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_Male/HUM_MS_Base.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="EMPTY_VISUAL_TEMPLATE" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_Male/HUM_MS_Base.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209016" />
 					<children>
 						<node id="AnimationSetOverrides">
 							<attribute id="PairElement1" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
@@ -944,9 +945,9 @@
 							<attribute id="PairElement2" type="FixedString" value="ae996c12-9f93-655f-6f04-f7bec8cef6eb" />
 							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
 						</node>
-						<node id="AnimationWaterfall"> Redcap Animation UUID
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="ddf7d1fc-2767-4b4d-845a-d36a9692782c" />
-						</node>	
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="c5444852-1895-0e73-37c5-d0a4eb1c0219" />
 						</node>
@@ -971,8 +972,6 @@
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="324bfb20-54e4-01c5-8a11-849c3352a6a3" />
 						</node>
-						<node id="Base" />
-						<node id="ClothProxyMapping" />
 					</children>
 				</node>
 			<!--SoulStitched Male Body-->
