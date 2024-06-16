@@ -8,7 +8,7 @@
                   <attribute id="Level" type="uint8" value="1" /> which level the progression is for
                   <attribute id="Name" type="LSString" value="SoulStitched" /> just an internal name
                   <attribute id="Boosts" type="LSString" value="" /> 
-                  <attribute id="PassivesAdded" type="LSString" value="Passive_SoulStitchedBasics" /> passives from stats folder here
+                  <attribute id="PassivesAdded" type="LSString" value="Passive_SoulStitchedBasics;FeyAncestry;Passive_Ironfoot;BloodThirsty_Redcap_SoulStitched;Brute_Redcap_SoulStitched" /> passives from stats folder here
                   <attribute id="Selectors" type="LSString" value="AddSpells(859bc257-4d74-4123-9806-0dd429dc1a15,,,,AlwaysPrepared);SelectSkills(9986c535-2f96-4026-8259-4e78de7e27f,2)" />see below for explanation
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
                   <attribute id="TableUUID" type="guid" value="f319cf17-d8fe-4a1c-a6b7-7a01f150038f" /> Always use this one for races.lsx, says this progression node is for Main Race
@@ -17,7 +17,7 @@
         <node id="Progression">
                   <attribute id="Level" type="uint8" value="3" /> which level the progression is for
                   <attribute id="Name" type="LSString" value="SoulStitched" /> just an internal name
-                  <attribute id="Boosts" type="LSString" value="" /> 
+                  <attribute id="Boosts" type="LSString" value="Bloodlust_Redcap_SoulStitched" /> 
                   <attribute id="PassivesAdded" type="LSString" value="" /> passives from stats folder here
                   <attribute id="Selectors" type="LSString" value="AddSpells(0733dcd6-37da-4964-a157-38cd610860fa,,,,AlwaysPrepared)" /> this is a single spell being added
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
@@ -33,16 +33,6 @@
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
                   <attribute id="TableUUID" type="guid" value="f319cf17-d8fe-4a1c-a6b7-7a01f150038f" /> Always use this one for races.lsx, says this progression node is for Main Race
                   <attribute id="UUID" type="guid" value="3a304969-f83e-4cf3-88de-cc06e36ff326" />  this one must be unique
-          </node>
-        <node id="Progression">
-                  <attribute id="Level" type="uint8" value="7" /> which level the progression is for
-                  <attribute id="Name" type="LSString" value="SoulStitched" /> just an internal name
-                  <attribute id="Boosts" type="LSString" value="" /> 
-                  <attribute id="PassivesAdded" type="LSString" value="" /> passives from stats folder here
-                  <attribute id="Selectors" type="LSString" value="AddSpells(2b900824-daee-4240-aebf-866d8a8318a4,,,,AlwaysPrepared)" /> this is a single spell being added
-                  <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
-                  <attribute id="TableUUID" type="guid" value="f319cf17-d8fe-4a1c-a6b7-7a01f150038f" /> Always use this one for races.lsx, says this progression node is for Main Race
-                  <attribute id="UUID" type="guid" value="6c5d042f-177e-4598-9969-c2cefaba6a7d" />  this one must be unique
           </node>
       </children>
     </node>
