@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="FeyAncestry,Passive_Ironfoot"/> the passive list
+                    <attribute id="Passives" type="LSString" value="FeyAncestry,Passive_Ironfoot,Brute_Redcap_SoulStitched"/> the passive list
                     <attribute id="UUID" type="guid" value="9eff18e1-33b4-4bf6-ae25-2715fc284a11"/> the UUID, needs to be unique
                 </node>
                 <node id="PassiveList">
