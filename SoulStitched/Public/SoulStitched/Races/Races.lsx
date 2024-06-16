@@ -18,9 +18,9 @@
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5"/>
                         </node>
-                        <!--Underdark-->
+                        <!--Redcap-->
                         <node id="Tags">
-                            <attribute id="Object" type="guid" value="2d0a73b9-f113-4d35-bdee-a31ab9163d74"/>
+                            <attribute id="Object" type="guid" value="ec2ee51e-80de-42a2-9d34-a5c9aa75cf75"/>
                         </node>
                         <node id="EyeColors">
                             <attribute id="Object" type="guid" value="b3ff0d4e-50c3-442e-3d8b-e30a5cf73368" />
