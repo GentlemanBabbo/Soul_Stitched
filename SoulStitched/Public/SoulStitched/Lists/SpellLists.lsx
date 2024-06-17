@@ -11,13 +11,8 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="3"/> 
-                    <attribute id="Spells" type="LSString" value="Target_BloodLust_RedCap_SoulStitched"/> the spells within the selector
+                    <attribute id="Spells" type="LSString" value="Target_BloodLust_RedCap_SoulStitched;Target_IronboundPursuit_RedCap_SoulStitched"/> the spells within the selector
                     <attribute id="UUID" type="guid" value="0733dcd6-37da-4964-a157-38cd610860fa"/> the UUID, needs to be unique
-                </node>
-                <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="5"/> 
-                    <attribute id="Spells" type="LSString" value="Target_IronboundPursuit_RedCap_SoulStitched"/> the spells within the selector
-                    <attribute id="UUID" type="guid" value="7ad8dbee-577f-42f9-951b-3a0a97b30756"/> the UUID, needs to be unique
                 </node>
             </children>
         </node>
