@@ -41,7 +41,7 @@
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="867083fb-71f0-4a28-b11c-cbd852c39054" /> which models to load
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="f7af9f10-cd33-3b88-e96a-d52952e81f5b" />
-					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />stronk armour set
+					<attribute id="EquipmentRace" type="guid" value="abf674d2-2ea4-4a74-ade0-125429f69f83" />Dwarf armour set
 					<attribute id="Race" type="guid" value="0d4de498-b121-4a46-a6a2-947a5b4a9159" /> define race as Custom Race
 					<children>
 						<node id="Tags">
