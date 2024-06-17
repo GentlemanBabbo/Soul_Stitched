@@ -20,9 +20,6 @@
 						<node id="Tags">
 							<children>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> tag for stronk
-								</node>
-								<node id="Tag">
 									<attribute id="Object" type="guid" value="afce4afd-51c8-4469-9a46-2bafff99dfb5" /> Custom Race tag
 								</node>
 							</children>
@@ -35,20 +32,17 @@
 					<attribute id="MapKey" type="FixedString" value="2c785e8b-f014-40d0-8ae2-e970a12df5cd" /> must be unique
 					<attribute id="Name" type="LSString" value="BASE_Main_Male_SoulStitched" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="858a8c1e-b8fa-429f-9a31-41033042ede3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="29e00087-abef-48e5-a427-b71594257f58" />
 					<attribute id="Icon" type="FixedString" value="4c8affee-8495-7a94-6506-bf050e0e091a-_(Icon_Elf_Male)" />
 					<attribute id="Stats" type="FixedString" value="Playable_M_SoulStitched" /> dont change
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="867083fb-71f0-4a28-b11c-cbd852c39054" /> which models to load
-					<attribute id="PortraitVisualResourceID" type="FixedString" value="f7af9f10-cd33-3b88-e96a-d52952e81f5b" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="9dab2880-c88d-f2d8-98aa-358e962b8afa" />
 					<attribute id="EquipmentRace" type="guid" value="abf674d2-2ea4-4a74-ade0-125429f69f83" />Dwarf armour set
 					<attribute id="Race" type="guid" value="0d4de498-b121-4a46-a6a2-947a5b4a9159" /> define race as Custom Race
 					<children>
 						<node id="Tags">
 							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> tag for stronk
-								</node>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="afce4afd-51c8-4469-9a46-2bafff99dfb5" /> Custom Race tag
 								</node>
