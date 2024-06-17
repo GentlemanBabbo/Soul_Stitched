@@ -8,7 +8,6 @@
 					<attribute id="MapKey" type="FixedString" value="d56c2e91-a364-4cb5-8db2-606eb87e93f0" /> must be unique
 					<attribute id="Name" type="LSString" value="BASE_Main_Female_SoulStitched" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> stronk armour set
 					<attribute id="ParentTemplateId" type="FixedString" value="72fc6418-6572-466e-bdc0-d7321006bf96" />
 					<attribute id="Icon" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000-_(Icon_Elf_Female)" />
 					<attribute id="Stats" type="FixedString" value="Playable_F_SoulStitched" /> dont change
