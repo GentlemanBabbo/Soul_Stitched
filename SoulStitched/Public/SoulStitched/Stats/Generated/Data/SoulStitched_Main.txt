@@ -51,7 +51,7 @@ type "PassiveData"
 data "DisplayName" "h93fe28c8g2a6dg42c0ga6d2ge988e5242799;1"
 data "Properties" "IsHidden;OncePerAttack"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "IsKillingBlow() and HasStatus('BLOODLUST_REDCAP', context.Source)"
+data "Conditions" "IsKillingBlow() and HasStatus('BLOODLUST_REDCAP_SOULSTITCHED', context.Source)"
 data "StatsFunctors" "RegainHitPoints(SELF,3d6)"
 
 new entry "Brute_Redcap_SoulStitched"
