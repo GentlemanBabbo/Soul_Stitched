@@ -4,7 +4,6 @@
   <region id="CharacterCreationPresets">
     <node id="root">
       <children>
-				<node id="CharacterCreationPreset">
 	<node id="CharacterCreationPreset">
 	  <attribute id="BodyShape" type="uint8" value="0"/>
 	  <attribute id="BodyType" type="uint8" value="1"/>
@@ -16,7 +15,7 @@
           <attribute id="UUID" type="guid" value="afa8e639-853f-4d85-9ec9-2b9b30d8eb79"/> must be unique
           <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/> do not touch
         </node>
-				<node id="CharacterCreationPreset">
+	<node id="CharacterCreationPreset">
           <attribute id="BodyShape" type="uint8" value="0"/>
           <attribute id="BodyType" type="uint8" value="0"/>
 	  <attribute id="CloseUpA" type="LSString" value="DWR_M_Camera_Closeup_A"/>
