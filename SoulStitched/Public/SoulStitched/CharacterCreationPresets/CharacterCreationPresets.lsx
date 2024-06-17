@@ -5,11 +5,12 @@
     <node id="root">
       <children>
 				<node id="CharacterCreationPreset">
-          <attribute id="BodyShape" type="uint8" value="0"/> 0 means smol, 1 means stronk
-          <attribute id="BodyType" type="uint8" value="1"/> 1 means wimmin, 0 means man
-          <attribute id="CloseUpA" type="LSString" value="HUM_FB_Camera_Closeup_A"/>
-          <attribute id="CloseUpB" type="LSString" value="HUM_FB_Camera_Closeup_B"/>
-          <attribute id="Overview" type="LSString" value="HUM_FB_Camera_Overview_A"/>
+	<node id="CharacterCreationPreset">
+	  <attribute id="BodyShape" type="uint8" value="0"/>
+	  <attribute id="BodyType" type="uint8" value="1"/>
+	  <attribute id="CloseUpA" type="LSString" value="DWR_F_Camera_Closeup_A"/>
+	  <attribute id="CloseUpB" type="LSString" value="DWR_F_Camera_Closeup_B"/>
+	  <attribute id="Overview" type="LSString" value="DWR_F_Camera_Overview_A"/>
           <attribute id="RaceUUID" type="guid" value="0d4de498-b121-4a46-a6a2-947a5b4a9159"/> base Custom Main race
           <attribute id="RootTemplate" type="guid" value="d56c2e91-a364-4cb5-8db2-606eb87e93f0"/> roottemplates 
           <attribute id="UUID" type="guid" value="afa8e639-853f-4d85-9ec9-2b9b30d8eb79"/> must be unique
@@ -18,9 +19,9 @@
 				<node id="CharacterCreationPreset">
           <attribute id="BodyShape" type="uint8" value="0"/>
           <attribute id="BodyType" type="uint8" value="0"/>
-         <attribute id="CloseUpA" type="LSString" value="HUM_MB_Camera_Closeup_A"/>
-          <attribute id="CloseUpB" type="LSString" value="HUM_MB_Camera_Closeup_B"/>
-          <attribute id="Overview" type="LSString" value="HUM_MB_Camera_Overview_A"/>
+	  <attribute id="CloseUpA" type="LSString" value="DWR_M_Camera_Closeup_A"/>
+	  <attribute id="CloseUpB" type="LSString" value="DWR_M_Camera_Closeup_B"/>
+	  <attribute id="Overview" type="LSString" value="DWR_M_Camera_Overview_A"/>
           <attribute id="RaceUUID" type="guid" value="0d4de498-b121-4a46-a6a2-947a5b4a9159"/>
           <attribute id="RootTemplate" type="guid" value="2c785e8b-f014-40d0-8ae2-e970a12df5cd"/>
           <attribute id="UUID" type="guid" value="1cb96a9a-a707-4979-a043-ffebde80d691"/>
